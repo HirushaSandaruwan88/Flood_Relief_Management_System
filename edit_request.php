@@ -49,6 +49,7 @@ if (isset($_POST['update'])) {
 <html>
 <head>
     <title>Edit Request</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
 </head>
 <body>
