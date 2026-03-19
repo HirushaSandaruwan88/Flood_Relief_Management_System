@@ -3,6 +3,18 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
 
 <div style="background:#333;color:#fff;padding:10px;">
     <?php if(isset($_SESSION['user_id'])): ?>

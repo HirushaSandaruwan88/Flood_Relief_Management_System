@@ -3,7 +3,7 @@
 <h1>Welcome to Flood Relief Management System</h1>
 <p>A platform designed to support flood-affected communities by managing relief requests and coordinating emergency assistance efficiently.</p>
 
-<img src="flood.png" alt="Flood Relief Management" class="relief-banner">
+<img src="flood.jpg" alt="Flood Relief Management" class="relief-banner">
 <?php if(!isset($_SESSION['user_id'])): ?>
     <div style="margin: 30px 0; padding: 20px; background: #f8f9fa; border-radius: 5px;">
         <h3>Get Started</h3>
